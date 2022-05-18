@@ -26,28 +26,28 @@
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://discord.gg/sunflowerland"
-                  class="font-medium text-gray-500 hover:text-gray-900"
+                  class="font-medium text-white hover:text-white"
                   >Discord</a
                 >
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://www.youtube.com/channel/UCA08g3x6EGPPZE_4093q3PQ"
-                  class="font-medium text-gray-500 hover:text-gray-900"
+                  class="font-medium text-white hover:text-white"
                   >Youtube</a
                 >
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://twitter.com/0xSunflowerLand"
-                  class="font-medium text-gray-500 hover:text-gray-900"
+                  class="font-medium text-white hover:text-white"
                   >Twitter</a
                 >
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://docs.sunflower-land.com"
-                  class="font-medium text-gray-500 hover:text-gray-900"
+                  class="font-medium text-white hover:text-white"
                   >Docs</a
                 >
               </div>

@@ -8,14 +8,14 @@
         >
           <div class="sm:text-center lg:text-left">
             <h1
-              class="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl mt-2"
+              class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl mt-2"
             >
               <span class="block">植物,  砍,  我的工艺和收集</span>
               <span class="block text-green-600 xl:inline">向日葵土地</span>
             </h1>
 
             <p
-              class="mt-3 text-base text-gray-500 sm:mt-2 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0"
+              class="mt-3 text-base text-white sm:mt-2 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0"
             >
               Play-to-Own Crypto Farming Game on Polygon.
             </p>
