@@ -5,14 +5,18 @@ import Block1 from './block-1.vue'
 </script>
 
 <template>
-  <Header></Header>
+  <!-- <Header></Header> -->
 
-  <div class="relative bg-white">
+  <div class="blue-bg"></div>
+
+  <div class="home-container">
+
+  <div class="relative">
     <div class="max-w-7xl mx-auto">
       <div
-        class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+        class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
       >
-        <!-- <Header></Header> -->
+        <Header></Header>
 
         <Block1></Block1>
       </div>
@@ -58,7 +62,7 @@ import Block1 from './block-1.vue'
   </div>
 
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="py-4 bg-gray-50 overflow-hidden lg:py-8">
+  <div class="py-4  overflow-hidden lg:py-8">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
       <div class="relative mt-4 sm:mt-4 lg:mt-4">
         <div
@@ -72,34 +76,34 @@ import Block1 from './block-1.vue'
             </h2>
 
             <h3
-              class="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-white-900 sm:text-4xl"
             >
               <font _mstmutation="1"
                 ><span class="text-green-600" _mstmutation="1">April 7th</span>
                 Game launch
               </font>
             </h3>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-white-500">
               <font _mstmutation="1"
-                ><b class="text-gray-700" _mstmutation="1">100,000</b> spots
+                ><b class="text-white-700" _mstmutation="1">100,000</b> spots
                 open for our Discord users
               </font>
             </p>
-            <p class="text-lg text-gray-500">
-              Mint land <b class="text-gray-700">NFTs</b> and start farming the
+            <p class="text-lg text-white-500">
+              Mint land <b class="text-white-700">NFTs</b> and start farming the
               SFL token
             </p>
             <h3
-              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white-900 sm:text-4xl"
             >
               <font _mstmutation="1"
                 ><span class="text-green-600" _mstmutation="1">April 15th</span>
                 Crafting launch
               </font>
             </h3>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-white-500">
               <font _mstmutation="1"
-                ><b class="text-gray-700" _mstmutation="1">Craft</b> limited
+                ><b class="text-white-700" _mstmutation="1">Craft</b> limited
                 items &amp; exchange on
                 <a
                   class="text-green-500 underline mt-1 inline"
@@ -111,7 +115,7 @@ import Block1 from './block-1.vue'
               </font>
             </p>
             <h3
-              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white-900 sm:text-4xl"
             >
               <font _mstmutation="1"
                 ><span class="text-green-600" _mstmutation="1">May 9th</span>
@@ -119,17 +123,26 @@ import Block1 from './block-1.vue'
               </font>
             </h3>
 
-            <p class="text-lg text-gray-500 mt-4">
-              Withdraw <b class="text-gray-700">SFL</b> and trade on QuickSwap
+            <p class="text-lg text-white-500 mt-4">
+              Withdraw <b class="text-white-700">SFL</b> and trade on QuickSwap
             </p>
           </div>
           <div class="mt-10 mx-4 relative lg:mt-0 lg:col-start-1">
-            <iframe
+            <!-- <iframe
               width="480"
               height="315"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
-            ></iframe>
+            ></iframe> -->
+
+            <img
+              class="relative mx-auto rounded-lg"
+              width="200"
+              src="data:image/png;base64,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"
+              alt=""
+              style="image-rendering: pixelated"
+            />
+            
           </div>
         </div>
       </div>
@@ -137,7 +150,7 @@ import Block1 from './block-1.vue'
   </div>
 
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="py-16 bg-gray-50 overflow-hidden lg:py-16">
+  <div class="py-16  overflow-hidden lg:py-16">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
       <svg
         class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -161,7 +174,7 @@ import Block1 from './block-1.vue'
               y="0"
               width="4"
               height="4"
-              class="text-gray-200"
+              class="text-white-200"
               fill="currentColor"
             ></rect>
           </pattern>
@@ -176,16 +189,16 @@ import Block1 from './block-1.vue'
       <div class="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div class="relative">
           <h3
-            class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl"
+            class="text-2xl font-extrabold text-white-900 tracking-tight sm:text-3xl"
           >
             Farm, Gather &amp; Earn SFL
           </h3>
-          <p class="mt-3 text-lg text-gray-500">
+          <p class="mt-3 text-lg text-white-500">
             From the gold you mine, to the sunflower seeds you plant, everything
             is an identifiable resource on Polygon.
           </p>
 
-          <!-- <p class="mt-3 text-lg text-gray-500">
+          <!-- <p class="mt-3 text-lg text-white-500">
               <a
                 class="text-green-500 underline"
                 href="https://polygonscan.com/token/0xD1f9c58e33933a993A3891F8acFe05a68E1afC05"
@@ -216,11 +229,11 @@ import Block1 from './block-1.vue'
                     ></path>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-16 text-lg leading-6 font-medium text-white-900">
                   Global Supply and Demand
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-white-500">
                 The more resources that exist, the scarcer they become. Similar
                 to
                 <a
@@ -253,11 +266,11 @@ import Block1 from './block-1.vue'
                     ></path>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-16 text-lg leading-6 font-medium text-white-900">
                   Secondary markets
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-white-500">
                 Move your collectibles and resources freely between friends and
                 on exchanges.
               </dd>
@@ -285,11 +298,11 @@ import Block1 from './block-1.vue'
                     ></path>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-16 text-lg leading-6 font-medium text-white-900">
                   100+ resources and NFTs
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-white-500">
                 <font _mstmutation="1">
                   Everything you plant, chop, harvest, mine &amp; craft is a
                   token on Polygon. </font
@@ -326,7 +339,7 @@ import Block1 from './block-1.vue'
                   y="0"
                   width="4"
                   height="4"
-                  class="text-gray-200"
+                  class="text-white-200"
                   fill="currentColor"
                 ></rect>
               </pattern>
@@ -379,7 +392,7 @@ import Block1 from './block-1.vue'
               y="0"
               width="4"
               height="4"
-              class="text-gray-200"
+              class="text-white-200"
               fill="currentColor"
             ></rect>
           </pattern>
@@ -397,11 +410,11 @@ import Block1 from './block-1.vue'
         >
           <div class="lg:col-start-2">
             <h3
-              class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl"
+              class="text-2xl font-extrabold text-white-900 tracking-tight sm:text-3xl"
             >
               Craft limited items and NFTs
             </h3>
-            <p class="mt-3 text-lg text-gray-500">
+            <p class="mt-3 text-lg text-white-500">
               Explore Sunflower Land to collect exotic resources in a race to
               craft and mint rare items.
             </p>
@@ -427,11 +440,11 @@ import Block1 from './block-1.vue'
                       ></path>
                     </svg>
                   </div>
-                  <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                  <p class="ml-16 text-lg leading-6 font-medium text-white-900">
                     Burn what you earn
                   </p>
                 </dt>
-                <dd class="mt-2 ml-16 text-base text-gray-500">
+                <dd class="mt-2 ml-16 text-base text-white-500">
                   Burn resources such as wood, stone, gold and iron to craft new
                   items.
                 </dd>
@@ -457,11 +470,11 @@ import Block1 from './block-1.vue'
                       ></path>
                     </svg>
                   </div>
-                  <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                  <p class="ml-16 text-lg leading-6 font-medium text-white-900">
                     Functional NFTs and collectibles
                   </p>
                 </dt>
-                <dd class="mt-2 ml-16 text-base text-gray-500">
+                <dd class="mt-2 ml-16 text-base text-white-500">
                   Earn 3x eggs with a chicken coop or grow wheat faster with a
                   scarecrow. No more boring JPEG NFTs!
                 </dd>
@@ -487,11 +500,11 @@ import Block1 from './block-1.vue'
                       ></path>
                     </svg>
                   </div>
-                  <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                  <p class="ml-16 text-lg leading-6 font-medium text-white-900">
                     Community events
                   </p>
                 </dt>
-                <dd class="mt-2 ml-16 text-base text-gray-500">
+                <dd class="mt-2 ml-16 text-base text-white-500">
                   Make sure you have enough eggs, beetroots and diamonds stored.
                   Rare items are released frequently. You want to be prepared
                   when the time comes!
@@ -523,7 +536,7 @@ import Block1 from './block-1.vue'
                     y="0"
                     width="4"
                     height="4"
-                    class="text-gray-200"
+                    class="text-white-200"
                     fill="currentColor"
                   ></rect>
                 </pattern>
@@ -559,19 +572,19 @@ import Block1 from './block-1.vue'
 
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div
-    class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
+    class="relative  pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
   >
     <div class="absolute inset-0">
-      <div class="bg-white h-1/3 sm:h-2/3"></div>
+      <div class="h-1/3 sm:h-2/3"></div>
     </div>
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
         <h2
-          class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl"
+          class="text-3xl tracking-tight font-extrabold text-white-900 sm:text-4xl"
         >
           The Sunflower Vision
         </h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-white-500 sm:mt-4">
           We are on a journey to become the #1 Crypto game that is built ground
           up by the community.
         </p>
@@ -609,7 +622,7 @@ import Block1 from './block-1.vue'
                 href="https://docs.sunflower-land.com/fundamentals/roadmap"
                 class="block mt-2"
               >
-                <p class="text-xl font-semibold text-gray-900">Beta farming</p>
+                <p class="text-xl font-semibold text-white-900">Beta farming</p>
                 <dt class="mt-2">
                   <!-- Heroicon name: outline/check -->
                   <svg
@@ -627,7 +640,7 @@ import Block1 from './block-1.vue'
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">
+                  <p class="ml-9 text-base text-white-500">
                     Farming &amp; Earn SFL
                   </p>
                 </dt>
@@ -648,7 +661,7 @@ import Block1 from './block-1.vue'
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">
+                  <p class="ml-9 text-base text-white-500">
                     Crafting/Minting items
                   </p>
                 </dt>
@@ -669,7 +682,7 @@ import Block1 from './block-1.vue'
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Wood Chopping</p>
+                  <p class="ml-9 text-base text-white-500">Wood Chopping</p>
                 </dt>
                 <dt class="mt-1">
                   <!-- Heroicon name: outline/check -->
@@ -688,7 +701,7 @@ import Block1 from './block-1.vue'
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Mining</p>
+                  <p class="ml-9 text-base text-white-500">Mining</p>
                 </dt>
                 <dt class="mt-1">
                   <!-- Heroicon name: outline/check -->
@@ -707,13 +720,13 @@ import Block1 from './block-1.vue'
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Skill System</p>
+                  <p class="ml-9 text-base text-white-500">Skill System</p>
                 </dt>
                 <dt class="mt-1">
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -725,7 +738,7 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Animals</p>
+                  <p class="ml-9 text-base text-white-500">Animals</p>
                 </dt>
               </a>
             </div>
@@ -754,14 +767,14 @@ import Block1 from './block-1.vue'
                 href="https://docs.sunflower-land.com/fundamentals/roadmap"
                 class="block mt-2"
               >
-                <p class="text-xl font-semibold text-gray-900">
+                <p class="text-xl font-semibold text-white-900">
                   NFT Land expansion &amp; resource scarcity
                 </p>
                 <dt class="mt-2">
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -773,13 +786,13 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Land expansion</p>
+                  <p class="ml-9 text-base text-white-500">Land expansion</p>
                 </dt>
                 <dt class="mt-1">
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -791,7 +804,7 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">
+                  <p class="ml-9 text-base text-white-500">
                     Liquidity pool resource pricing
                   </p>
                 </dt>
@@ -799,7 +812,7 @@ import Block1 from './block-1.vue'
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -811,7 +824,7 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">
+                  <p class="ml-9 text-base text-white-500">
                     Farm Character NFTs
                   </p>
                 </dt>
@@ -819,7 +832,7 @@ import Block1 from './block-1.vue'
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -831,7 +844,7 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">
+                  <p class="ml-9 text-base text-white-500">
                     Fishing, Bees + new resources + NFTs
                   </p>
                 </dt>
@@ -862,14 +875,14 @@ import Block1 from './block-1.vue'
                 href="https://docs.sunflower-land.com/fundamentals/roadmap"
                 class="block mt-2"
               >
-                <p class="text-xl font-semibold text-gray-900">
+                <p class="text-xl font-semibold text-white-900">
                   Decentralised community protocols
                 </p>
                 <dt class="mt-2">
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -881,7 +894,7 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">
+                  <p class="ml-9 text-base text-white-500">
                     Goblin Black Market DEX
                   </p>
                 </dt>
@@ -889,7 +902,7 @@ import Block1 from './block-1.vue'
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -901,13 +914,13 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Community NFTs</p>
+                  <p class="ml-9 text-base text-white-500">Community NFTs</p>
                 </dt>
                 <dt class="mt-1">
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -919,13 +932,13 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">Sunflower DAO</p>
+                  <p class="ml-9 text-base text-white-500">Sunflower DAO</p>
                 </dt>
                 <dt class="mt-1">
                   <!-- Heroicon name: outline/check -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="absolute h-6 w-6 text-gray-400"
+                    class="absolute h-6 w-6 text-white-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -937,7 +950,7 @@ import Block1 from './block-1.vue'
                       d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
                     ></path>
                   </svg>
-                  <p class="ml-9 text-base text-gray-500">NFT Trading House</p>
+                  <p class="ml-9 text-base text-white-500">NFT Trading House</p>
                 </dt>
               </a>
             </div>
@@ -955,15 +968,15 @@ import Block1 from './block-1.vue'
           <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
             Thought Farm
           </h2>
-          <p class="text-xl text-gray-500">
+          <p class="text-xl text-white-500">
             Sunflower Land was built by a team of passionate people who love
             building community driven projects
           </p>
-          <p class="text-xl text-gray-500">
+          <p class="text-xl text-white-500">
             Built by over 40+ open source developers and 50+ designers across
             the globe.
           </p>
-          <p class="text-xl text-gray-500">
+          <p class="text-xl text-white-500">
             <font _mstmutation="1">
               Want to help out? Come join us on
               <a
@@ -996,7 +1009,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://twitter.com/bumpkinbuilder"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">Twitter</span>
                         <svg
@@ -1014,7 +1027,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://www.linkedin.com/in/%F0%9F%8C%BB-adam-hannigan-102489109/"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">LinkedIn</span>
                         <svg
@@ -1049,7 +1062,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://twitter.com/thisboyspencer"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">Twitter</span>
                         <svg
@@ -1067,7 +1080,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://www.linkedin.com/in/spencerdezartsmith/"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">LinkedIn</span>
                         <svg
@@ -1102,7 +1115,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://twitter.com/rofrtd"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">Twitter</span>
                         <svg
@@ -1120,7 +1133,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://www.linkedin.com/in/rofrtd/"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">LinkedIn</span>
                         <svg
@@ -1157,7 +1170,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://twitter.com/STEVEW00DY"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">Twitter</span>
                         <svg
@@ -1175,7 +1188,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://www.linkedin.com/in/stevew00dy/"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">LinkedIn</span>
                         <svg
@@ -1212,7 +1225,7 @@ import Block1 from './block-1.vue'
                     <li>
                       <a
                         href="https://twitter.com/SFL_Roulette"
-                        class="text-gray-400 hover:text-gray-500"
+                        class="text-white-400 hover:text-white-500"
                       >
                         <span class="sr-only">Twitter</span>
                         <svg
@@ -1235,6 +1248,7 @@ import Block1 from './block-1.vue'
           <iframe
             width="400"
             height="315"
+            src="https://www.youtube.com/embed/b3ArEUUK52A"
             class="mt-12"
           >
           </iframe>
@@ -1244,7 +1258,7 @@ import Block1 from './block-1.vue'
   </div>
 
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="bg-green-700">
+  <div class="">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-extrabold text-white">
         Frequently asked questions
@@ -1312,10 +1326,10 @@ import Block1 from './block-1.vue'
   </div>
 
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="bg-white">
+  <div class="">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20">
       <h2
-        class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+        class="text-3xl font-extrabold tracking-tight text-white-900 sm:text-4xl"
       >
         <span class="block">Looking to learn more?</span>
         <span class="block text-green-600"
@@ -1374,14 +1388,14 @@ import Block1 from './block-1.vue'
   </div>
 
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <footer class="bg-white">
+  <footer class="">
     <div
       class="max-w-7xl mx-auto pt-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
     >
       <div class="flex justify-center space-x-6 md:order-2">
         <a
           href="https://twitter.com/0xSunflowerLand"
-          class="text-gray-400 hover:text-gray-500"
+          class="text-white-400 hover:text-white-500"
         >
           <span class="sr-only">Twitter</span>
           <svg
@@ -1398,7 +1412,7 @@ import Block1 from './block-1.vue'
 
         <a
           href="https://github.com/sunflower-land/sunflower-land"
-          class="text-gray-400 hover:text-gray-500"
+          class="text-white-400 hover:text-white-500"
         >
           <span class="sr-only">GitHub</span>
           <svg
@@ -1417,17 +1431,17 @@ import Block1 from './block-1.vue'
 
         <a
           href="https://discord.gg/sunflowerland"
-          class="text-gray-400 hover:text-gray-500"
+          class="text-white-400 hover:text-white-500"
         >
           <span>Discord</span>
         </a>
       </div>
       <div class="mt-8 md:mt-0 md:order-1">
-        <p class="text-left text-base text-gray-400">
+        <p class="text-left text-base text-white-400">
           © 2022 Sunflower Land. All rights reserved.
         </p>
-        <p class="text-left text-base text-gray-400">Thought Farm Pty Ltd</p>
-        <p class="text-left text-base text-gray-400">
+        <p class="text-left text-base text-white-400">Thought Farm Pty Ltd</p>
+        <p class="text-left text-base text-white-400">
           <font _mstmutation="1">info@sunflower-land.com</font>
         </p>
       </div>
@@ -1435,14 +1449,15 @@ import Block1 from './block-1.vue'
     <div class="w-full flex justify-center mb-4">
       <a
         href="https://docs.sunflower-land.com/support/terms-of-service"
-        class="text-center underline text-base text-gray-400"
+        class="text-center underline text-base text-white-400"
       >
         Terms of service
       </a>
     </div>
   </footer>
-
-  <div id="freshworks-container" data-html2canvas-ignore="true" style="width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;"><div aria-live="polite"><div id="freshworks-frame-wrapper" data-testid="frame-wrapper" class="frame-right" style="right: 30px; bottom: 80px; height: calc(100% - 84px); visibility: visible;"><iframe allowfullscreen="" id="widget-frame" data-testid="widget-frame" style="border: none; width: 100%; height: 100%; border-radius: inherit;"></iframe></div><iframe allowfullscreen="" id="launcher-frame" data-testid="launcher-frame" style="right: 22px; bottom: 22px; border: none; position: fixed; min-width: 104px; max-width: 156px; height: 56px; z-index: 2147483000; visibility: visible;"></iframe><iframe allowfullscreen="" id="lightbox-frame" data-testid="lightbox-frame" style="display: none;"></iframe></div></div>
+</div>
 </template>
 
-<style scoped></style>
+<style scoped >
+@import './style.css';
+</style>
