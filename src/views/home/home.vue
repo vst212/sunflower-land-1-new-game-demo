@@ -1,108 +1,26 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from './header.vue'
+
+import Block1 from './block-1.vue'
+</script>
 
 <template>
+  <Header></Header>
+
   <div class="relative bg-white">
     <div class="max-w-7xl mx-auto">
       <div
         class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
       >
-        <div>
-          <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-            <nav
-              class="relative flex items-center justify-between sm:h-10 lg:justify-start"
-              aria-label="Global"
-              _mstaria-label="4985136"
-            >
-              <div
-                class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
-              >
-                <div class="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
-                    <span class="sr-only">Workflow</span>
-                    <img
-                      class="h-8 w-auto sm:h-10"
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAYAAACKAxD9AAAAAXNSR0IArs4c6QAAAyRJREFUeJzt3TFrU1EYh/EnkqFkkCJGBBdnC+LkEFBoxy7SqYOLX6Jz6Yfp0ElcOjbgkFFEiHMXQYxI6BAyBHTwHSP8r54Qxec3H25u6cMdXu45t0fo6vBxurSp3b2daN18uvy+4VtZa3dvp5esm0+Xm76VtQ4uP0Trbm34PvSPMAQBhqBiCAIMQcUQBBiCiiEIMASVXjoxHI4G0brZZLGVCd/+64fZwpvP2brb96Nl46Pr7HqNDUeDaKI5myyi6/lEEGAIKoYgwBBUDEGAIagYggBDUDEEAdBPF6YTw3TCt3qTvUsXCyeGq/GXaF1/P/vZZ69usoWh/ots0js+uk4nuNEE0ieCAENQMQQBhqBiCAIMQcUQBBiCiiEI6DBZbP7D4QQtnUAeP/+W/nK27DS73vlZ+Kvh37stPhEEGIKKIQgwBBVDEGAIKoYgwBBUDEEA9N6dPI0Wtj7HMH238fjJx2jdg7t3/uR2ftunr9kE8uL9o2hd693V6TmQPhEEGIKKIQgwBBVDEGAIKoYgwBBUDEHAz3MWm+5yTnclp+8YphPDdMLXWuv7u3gbTkgbnwPpE0GAIagYggBDUDEEAYagYggCDEHFEAR02Q3d+BzDLW7E/qu1Pgcy5RNBgCGoGIIAQ1AxBAGGoGIIAgxBxRAEdBnvhe/IxROv8BzD/01//162MPx/gO8sqgNDEGAIKoYgwBBUDEGAIagYggBDUOmn5/B1+BZxJD130HMWfyVb5zmL6sQQBBiCiiEIMAQVQxBgCCqGIMAQVHpXh/E3i9uexxhKvw398nQ7u6vPz1bRutbfhu7wpRcni8oZggBDUDEEAYagYggCDEHFEAQYgsrWDjtMJ4ap9Msn+TmG2a7k9Hrp39t6ApnyiSDAEFQMQYAhqBiCAENQMQQBhqBiCAI6vLM4HA2idbPJoumu6VTrb1e3/vZya8PRIHoXcTZZRNfziSDAEFQMQYAhqBiCAENQMQQBhqBiCALCnbIAHXZNN7W7txOtm0+XW5lopucYzqfLTd/KWgeX2buSPhEEGIKKIQgwBBVDEGAIKoYgwBBUDEEA/AA3DpcftNjv3QAAAABJRU5ErkJggg=="
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                <a
-                  href="https://discord.gg/sunflowerland"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Discord</a
-                >
-              </div>
-              <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                <a
-                  href="https://www.youtube.com/channel/UCA08g3x6EGPPZE_4093q3PQ"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Youtube</a
-                >
-              </div>
-              <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                <a
-                  href="https://twitter.com/0xSunflowerLand"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Twitter</a
-                >
-              </div>
-              <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                <a
-                  href="https://docs.sunflower-land.com"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Docs</a
-                >
-              </div>
-            </nav>
-          </div>
-        </div>
+        <!-- <Header></Header> -->
 
-        <main
-          class="mt-6 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-12 lg:px-8 xl:mt-20"
-        >
-          <div class="sm:text-center lg:text-left">
-            <h1
-              class="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl mt-2"
-            >
-              <span class="block">Plant, Chop, Mine, Craft &amp; Collect</span>
-              <span class="block text-green-600 xl:inline">Sunflower Land</span>
-            </h1>
-
-            <p
-              class="mt-3 text-base text-gray-500 sm:mt-2 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0"
-            >
-              Play-to-Own Crypto Farming Game on Polygon.
-            </p>
-
-            <div
-              class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
-            >
-              <div class="rounded-md shadow mr-2">
-                <a
-                  href="https://sunflower-land.com/play"
-                  class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
-                >
-                  Beta
-                </a>
-              </div>
-              <div class="rounded-md shadow mt-2 sm:mt-0">
-                <a
-                  href="https://quickswap.exchange/#/swap?outputCurrency=0xd1f9c58e33933a993a3891f8acfe05a68e1afc05"
-                  class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 md:py-4 md:text-lg md:px-10"
-                >
-                  QuickSwap
-                </a>
-              </div>
-            </div>
-          </div>
-        </main>
+        <Block1></Block1>
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 p-24 z-10">
       <img
         class="mx-auto object-cover animate-float"
-        src="/assets/nft_land.fc43adde.png"
+        src="./assets/nft_land.fc43adde.png"
         alt=""
         style="filter: drop-shadow(0px 9px 10px #ddd)"
       />
@@ -209,7 +127,6 @@
             <iframe
               width="480"
               height="315"
-              src="https://www.youtube.com/embed/BZxp_E-Np6E"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
             ></iframe>
@@ -423,7 +340,7 @@
           <div class="relative mx-auto" style="width: 100%">
             <img
               class="relative"
-              src="/assets/Soil.ccc4b087.png"
+              src="./assets/Soil.ccc4b087.png"
               alt=""
               style="
                 -webkit-filter: drop-shadow(0px 4px 12px rgb(0 0 0 / 10%));
@@ -432,7 +349,7 @@
             />
             <img
               class="mx-auto"
-              src="/assets/watering.d848222a.gif"
+              src="./assets/watering.d848222a.gif"
               alt=""
               style="position: absolute; top: 4%; left: 3%; width: 71%"
             />
@@ -674,7 +591,7 @@
             <img
               class="h-48 w-full object-cover"
               style="image-rendering: pixelated"
-              src="/assets/crops.6da9c07d.png"
+              src="./assets/crops.6da9c07d.png"
               alt=""
             />
           </div>
@@ -820,7 +737,7 @@
             <img
               style="image-rendering: pixelated"
               class="h-48 w-full object-cover"
-              src="/assets/expansion.e3dc339c.jpg"
+              src="./assets/expansion.e3dc339c.jpg"
               alt=""
             />
           </div>
@@ -927,7 +844,7 @@
           <div class="flex-shrink-0">
             <img
               class="h-48 w-full object-cover"
-              src="/assets/black_market.3bde9316.jpg"
+              src="./assets/black_market.3bde9316.jpg"
               alt=""
               style="image-rendering: pixelated"
             />
@@ -1067,7 +984,7 @@
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src="/assets/adam.c0f0cd81.jpeg"
+                  src="./assets/adam.c0f0cd81.jpeg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1175,7 +1092,7 @@
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20"
-                  src="/assets/Romulo.5c79d914.jpeg"
+                  src="./assets/Romulo.5c79d914.jpeg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1228,7 +1145,7 @@
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src="/assets/steve.d3277955.jpg"
+                  src="./assets/steve.d3277955.jpg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1283,7 +1200,7 @@
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src="/assets/brandon.f071c298.jpeg"
+                  src="./assets/brandon.f071c298.jpeg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1318,7 +1235,6 @@
           <iframe
             width="400"
             height="315"
-            src="https://www.youtube.com/embed/b3ArEUUK52A"
             class="mt-12"
           >
           </iframe>
@@ -1525,6 +1441,8 @@
       </a>
     </div>
   </footer>
+
+  <div id="freshworks-container" data-html2canvas-ignore="true" style="width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;"><div aria-live="polite"><div id="freshworks-frame-wrapper" data-testid="frame-wrapper" class="frame-right" style="right: 30px; bottom: 80px; height: calc(100% - 84px); visibility: visible;"><iframe allowfullscreen="" id="widget-frame" data-testid="widget-frame" style="border: none; width: 100%; height: 100%; border-radius: inherit;"></iframe></div><iframe allowfullscreen="" id="launcher-frame" data-testid="launcher-frame" style="right: 22px; bottom: 22px; border: none; position: fixed; min-width: 104px; max-width: 156px; height: 56px; z-index: 2147483000; visibility: visible;"></iframe><iframe allowfullscreen="" id="lightbox-frame" data-testid="lightbox-frame" style="display: none;"></iframe></div></div>
 </template>
 
 <style scoped></style>
