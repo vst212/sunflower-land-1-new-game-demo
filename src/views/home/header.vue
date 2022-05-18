@@ -6,7 +6,7 @@
   <div>
           <div class="relative pt-6 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <nav
-              class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+              class="relative flex items-center justify-end sm:h-10 lg:justify-end"
               aria-label="Global"
               _mstaria-label="4985136"
             >
@@ -27,28 +27,28 @@
                 <a
                   href="https://discord.gg/sunflowerland"
                   class="font-medium text-white hover:text-white"
-                  >Discord</a
+                  >PLAY</a
                 >
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://www.youtube.com/channel/UCA08g3x6EGPPZE_4093q3PQ"
                   class="font-medium text-white hover:text-white"
-                  >Youtube</a
+                  >WHIE PAPER</a
                 >
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://twitter.com/0xSunflowerLand"
                   class="font-medium text-white hover:text-white"
-                  >Twitter</a
+                  >BUYNFT</a
                 >
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://docs.sunflower-land.com"
                   class="font-medium text-white hover:text-white"
-                  >Docs</a
+                  >SWAP</a
                 >
               </div>
             </nav>

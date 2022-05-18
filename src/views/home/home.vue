@@ -1,34 +1,28 @@
 <script setup lang="ts">
+import './style.css'
 import Header from './header.vue'
 
 import Block1 from './block-1.vue'
+
+import Block2 from './block-2.vue'
+
 </script>
 
 <template>
-  <!-- <Header></Header> -->
+  
 
   <div class="blue-bg"></div>
+
+  <Header></Header>
 
   <div class="home-container">
 
   <div class="relative">
-    <div class="max-w-7xl mx-auto">
-      <div
-        class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
-      >
-        <Header></Header>
+    <Block1></Block1> 
+    
+    <Block2></Block2>
+    
 
-        <Block1></Block1>
-      </div>
-    </div>
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 p-24 z-10">
-      <img
-        class="mx-auto object-cover animate-float"
-        src="./assets/nft_land.fc43adde.png"
-        alt=""
-        style="filter: drop-shadow(0px 9px 10px #ddd)"
-      />
-    </div>
     <div
       id="extwaiokist"
       style="display: none"
@@ -1458,6 +1452,6 @@ import Block1 from './block-1.vue'
 </div>
 </template>
 
-<style scoped >
-@import './style.css';
+<style scoped  >
+/* @import './style.css'; */
 </style>
