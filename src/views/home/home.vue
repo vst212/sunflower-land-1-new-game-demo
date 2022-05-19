@@ -2,7 +2,7 @@
 import './style.css'
 import Header from './header.vue'
 
-import Block1 from './block-1.vue'
+// import Block1 from './block-1.vue'
 
 import Block2 from './block-2.vue'
 
@@ -18,7 +18,7 @@ import Block2 from './block-2.vue'
   <div class="home-container">
 
   <div class="relative">
-    <Block1></Block1> 
+    <!-- <Block1></Block1>  -->
     
     <Block2></Block2>
     
@@ -146,7 +146,7 @@ import Block2 from './block-2.vue'
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="py-16  overflow-hidden lg:py-16">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-      <svg
+      <!-- <svg
         class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
         width="404"
         height="784"
@@ -178,7 +178,7 @@ import Block2 from './block-2.vue'
           height="784"
           fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
         ></rect>
-      </svg>
+      </svg> -->
 
       <div class="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div class="relative">
@@ -364,7 +364,7 @@ import Block2 from './block-2.vue'
         </div>
       </div>
 
-      <svg
+      <!-- <svg
         class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
         width="404"
         height="784"
@@ -396,7 +396,7 @@ import Block2 from './block-2.vue'
           height="784"
           fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
         ></rect>
-      </svg>
+      </svg> -->
 
       <div class="relative mt-12 sm:mt-16 lg:mt-24">
         <div
@@ -1236,13 +1236,13 @@ import Block2 from './block-2.vue'
               </div>
             </li>
           </ul>
-          <iframe
+          <!-- <iframe
             width="400"
             height="315"
             src="https://www.youtube.com/embed/b3ArEUUK52A"
             class="mt-12"
           >
-          </iframe>
+          </iframe> -->
         </div>
       </div>
     </div>
@@ -1428,23 +1428,23 @@ import Block2 from './block-2.vue'
         </a>
       </div>
       <div class="mt-8 md:mt-0 md:order-1">
-        <p class="text-left text-base text-white">
+        <p class="text-center text-base text-white">
           © 2022 Sunflower Land. All rights reserved.
         </p>
-        <p class="text-left text-base text-white">Thought Farm Pty Ltd</p>
+        <!-- <p class="text-left text-base text-white">Thought Farm Pty Ltd</p>
         <p class="text-left text-base text-white">
           <font _mstmutation="1">info@sunflower-land.com</font>
-        </p>
+        </p> -->
       </div>
     </div>
-    <div class="w-full flex justify-center mb-4">
+    <!-- <div class="w-full flex justify-center mb-4">
       <a
         href="https://docs.sunflower-land.com/support/terms-of-service"
         class="text-center underline text-base text-white"
       >
         Terms of service
       </a>
-    </div>
+    </div> -->
   </footer>
 </div>
 </template>
