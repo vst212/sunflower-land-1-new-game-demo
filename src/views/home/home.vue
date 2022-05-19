@@ -1381,9 +1381,9 @@ import Block2 from './block-2.vue'
   <!-- This example requires Tailwind CSS v2.0+ -->
   <footer class="">
     <div
-      class="max-w-7xl mx-auto pt-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
+      class="max-w-7xl mx-auto pt-12 px-4 sm:px-6 md:flex md:items-center md:justify-center lg:px-8 mb-8"
     >
-      <div class="flex justify-center space-x-6 md:order-2">
+      <!-- <div class="flex justify-center space-x-6 md:order-2">
         <a
           href="https://twitter.com/0xSunflowerLand"
           class="text-white hover:text-white"
@@ -1426,8 +1426,8 @@ import Block2 from './block-2.vue'
         >
           <span>Discord</span>
         </a>
-      </div>
-      <div class="mt-8 md:mt-0 md:order-1">
+      </div> -->
+      <div class="mt-8 md:mt-0 md:order-1 ">
         <p class="text-center text-base text-white">
           © 2022 Sunflower Land. All rights reserved.
         </p>
