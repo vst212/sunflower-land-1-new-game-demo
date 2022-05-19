@@ -991,7 +991,7 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src="./assets/adam.c0f0cd81.jpeg"
+                  src=""
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1099,7 +1099,6 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20"
-                  src="./assets/Romulo.5c79d914.jpeg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1152,7 +1151,6 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src="./assets/steve.d3277955.jpg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1207,7 +1205,6 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src="./assets/brandon.f071c298.jpeg"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
