@@ -183,7 +183,7 @@ import Block2 from './block-2.vue'
       <div class="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div class="relative">
           <h3
-            class="text-2xl font-extrabold text-white tracking-tight sm:text-3xl"
+            class="text-2xl font-extrabold text-green-primary tracking-tight sm:text-3xl"
           >
             Farm, Gather &amp; Earn SFL
           </h3>
@@ -404,7 +404,7 @@ import Block2 from './block-2.vue'
         >
           <div class="lg:col-start-2">
             <h3
-              class="text-2xl font-extrabold text-white tracking-tight sm:text-3xl"
+              class="text-2xl font-extrabold text-green-primary tracking-tight sm:text-3xl"
             >
               Craft limited items and NFTs
             </h3>
@@ -574,7 +574,7 @@ import Block2 from './block-2.vue'
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
         <h2
-          class="text-3xl tracking-tight font-extrabold text-white sm:text-4xl"
+          class="text-3xl tracking-tight font-extrabold text-green-primary sm:text-4xl"
         >
           The Sunflower Vision
         </h2>
@@ -959,7 +959,7 @@ import Block2 from './block-2.vue'
     <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">
         <div class="space-y-5 sm:space-y-4">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h2 class="text-3xl text-green-primary font-extrabold tracking-tight sm:text-4xl">
             Thought Farm
           </h2>
           <p class="text-xl text-white">

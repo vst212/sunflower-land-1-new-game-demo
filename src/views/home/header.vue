@@ -4,7 +4,7 @@
 
 <template>
   <div>
-          <div class="relative pt-6 px-4 sm:px-0 lg:px-0 max-w-16xl mx-auto flex items-center justify-between  ">
+          <div class="relative pt-6 px-4 sm:px-0 lg:px-10  w-full  flex items-center justify-between  ">
 
             <div
                 class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0 "

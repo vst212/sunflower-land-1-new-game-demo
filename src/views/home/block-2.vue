@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="max-w-16xl mx-auto mt-30">
+  <div class="lg:px-10  w-full mt-30">
     <img class="w-full" mx-auto src="./assets/banner.png" />
   </div>
 </template>
