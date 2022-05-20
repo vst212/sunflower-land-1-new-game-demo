@@ -64,7 +64,7 @@ import Block2 from './block-2.vue'
         >
           <div class="lg:col-start-2">
             <h2
-              class="leading-6 text-green-600 font-semibold tracking-wide uppercase"
+              class="leading-6 text-green-primary font-semibold tracking-wide uppercase"
             >
               Launch Dates
             </h2>
@@ -73,7 +73,7 @@ import Block2 from './block-2.vue'
               class="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl"
             >
               <font _mstmutation="1"
-                ><span class="text-green-600" _mstmutation="1">April 7th</span>
+                ><span class="text-green-primary" _mstmutation="1">April 7th</span>
                 Game launch
               </font>
             </h3>
@@ -91,7 +91,7 @@ import Block2 from './block-2.vue'
               class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl"
             >
               <font _mstmutation="1"
-                ><span class="text-green-600" _mstmutation="1">April 15th</span>
+                ><span class="text-green-primary" _mstmutation="1">April 15th</span>
                 Crafting launch
               </font>
             </h3>
@@ -112,7 +112,7 @@ import Block2 from './block-2.vue'
               class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl"
             >
               <font _mstmutation="1"
-                ><span class="text-green-600" _mstmutation="1">May 9th</span>
+                ><span class="text-green-primary" _mstmutation="1">May 9th</span>
                 SFL launch
               </font>
             </h3>
@@ -604,7 +604,7 @@ import Block2 from './block-2.vue'
           </div>
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
-              <p class="text-sm font-medium text-green-600">
+              <p class="text-sm font-medium text-green-primary">
                 <a
                   href="https://docs.sunflower-land.com/fundamentals/roadmap"
                   class="hover:underline"
@@ -750,7 +750,7 @@ import Block2 from './block-2.vue'
           </div>
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
-              <p class="text-sm font-medium text-green-600">
+              <p class="text-sm font-medium text-green-primary">
                 <a
                   href="https://docs.sunflower-land.com/fundamentals/roadmap"
                   class="hover:underline"
@@ -858,7 +858,7 @@ import Block2 from './block-2.vue'
           </div>
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
-              <p class="text-sm font-medium text-green-600">
+              <p class="text-sm font-medium text-green-primary">
                 <a
                   href="https://docs.sunflower-land.com/fundamentals/roadmap"
                   class="hover:underline"
@@ -995,8 +995,8 @@ import Block2 from './block-2.vue'
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3>Adam Hannigan</h3>
-                  <p class="text-green-600">
+                  <h3 class="text-orange-primary">Adam Hannigan</h3>
+                  <p class="text-green-primary">
                     Founder, Designer &amp; Developer
                   </p>
                   <ul role="list" class="flex space-x-5">
@@ -1050,8 +1050,8 @@ import Block2 from './block-2.vue'
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3>Spencer Dezart-Smith</h3>
-                  <p class="text-green-600">Engineer (UX/Mobile Specialist)</p>
+                  <h3 class="text-orange-primary">Spencer Dezart-Smith</h3>
+                  <p class="text-green-primary">Engineer (UX/Mobile Specialist)</p>
                   <ul role="list" class="flex space-x-5">
                     <li>
                       <a
@@ -1102,8 +1102,8 @@ import Block2 from './block-2.vue'
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3>Romy Furtado</h3>
-                  <p class="text-green-600">Engineer &amp; Musician</p>
+                  <h3 class="text-orange-primary">Romy Furtado</h3>
+                  <p class="text-green-primary">Engineer &amp; Musician</p>
                   <ul role="list" class="flex space-x-5">
                     <li>
                       <a
@@ -1154,8 +1154,8 @@ import Block2 from './block-2.vue'
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3>Steve Woody</h3>
-                  <p class="text-green-600">
+                  <h3 class="text-orange-primary">Steve Woody</h3>
+                  <p class="text-green-primary">
                     Partner, PR &amp; Community Management
                   </p>
                   <ul role="list" class="flex space-x-5">
@@ -1208,8 +1208,8 @@ import Block2 from './block-2.vue'
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3>Brandon Collins</h3>
-                  <p class="text-green-600">
+                  <h3 class="text-orange-primary">Brandon Collins</h3>
+                  <p class="text-green-primary">
                     Advisor, Community Relations &amp; Support
                   </p>
                   <ul role="list" class="flex space-x-5">
@@ -1323,7 +1323,7 @@ import Block2 from './block-2.vue'
         class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl"
       >
         <span class="block">Looking to learn more?</span>
-        <span class="block text-green-600"
+        <span class="block text-green-primary"
           >Read our litepaper &amp; tokenomics</span
         >
       </h2>
