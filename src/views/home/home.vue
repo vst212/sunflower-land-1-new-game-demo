@@ -131,8 +131,8 @@ import Block2 from './block-2.vue'
 
             <img
               class="relative mx-auto rounded-lg"
-              width="200"
-              src="data:image/png;base64,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"
+              width="400"
+              src="./assets/game-introduction-1.jpg"
               alt=""
               style="image-rendering: pixelated"
             />
@@ -344,22 +344,22 @@ import Block2 from './block-2.vue'
               fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
             ></rect>
           </svg> -->
-          <div class="relative mx-auto" style="width: 100%">
+          <div class="relative mx-auto px-4 sm:px-6" style="width: 100%">
             <img
               class="relative"
-              src="./assets/Soil.ccc4b087.png"
+              width="400"
+              src="./assets/game-introduction-2.jpg"
               alt=""
               style="
                 -webkit-filter: drop-shadow(0px 4px 12px rgb(0 0 0 / 10%));
-                width: 100%;
               "
             />
-            <img
+            <!-- <img
               class="mx-auto"
               src="./assets/watering.d848222a.gif"
               alt=""
               style="position: absolute; top: 4%; left: 3%; width: 71%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -542,9 +542,9 @@ import Block2 from './block-2.vue'
               ></rect>
             </svg> -->
             <img
-              class="relative mx-auto rounded-lg"
-              width="200"
-              src="data:image/png;base64,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"
+              class="relative mx-auto rounded-lg px-4 sm:px-6"
+              width="400"
+              src="./assets/game-introduction-3.jpg"
               alt=""
               style="image-rendering: pixelated"
             />
@@ -598,7 +598,7 @@ import Block2 from './block-2.vue'
             <img
               class="h-48 w-full object-cover"
               style="image-rendering: pixelated"
-              src="./assets/crops.6da9c07d.png"
+              src="./assets/professional-introduction-1.jpg"
               alt=""
             />
           </div>
@@ -744,7 +744,7 @@ import Block2 from './block-2.vue'
             <img
               style="image-rendering: pixelated"
               class="h-48 w-full object-cover"
-              src="./assets/expansion.e3dc339c.jpg"
+              src="./assets/professional-introduction-2.jpg"
               alt=""
             />
           </div>
@@ -851,7 +851,7 @@ import Block2 from './block-2.vue'
           <div class="flex-shrink-0">
             <img
               class="h-48 w-full object-cover"
-              src="./assets/black_market.3bde9316.jpg"
+              src="./assets/professional-introduction-3.jpg"
               alt=""
               style="image-rendering: pixelated"
             />
