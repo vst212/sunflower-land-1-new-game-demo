@@ -57,7 +57,7 @@
 
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
-                  href="https://discord.gg/sunflowerland"
+                  href="https://discord.gg/Hpf26cbUQf"
                   class="font-medium text-white hover:text-white"
                 >
                   <span>DISCORD</span>
@@ -66,7 +66,7 @@
 
               <div class="hidden md:block md:ml-10 md:pr-0 md:space-x-8 ">
                 <a
-                  href="https://twitter.com/0xSunflowerLand"
+                  href="https://twitter.com/farmingland6"
                   class="text-white hover:text-white"
                 >
                   <span class="sr-only">Twitter</span>

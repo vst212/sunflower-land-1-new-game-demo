@@ -101,7 +101,7 @@ import Block2 from './block-2.vue'
                 items &amp; exchange on
                 <a
                   class="text-green-500 underline mt-1 inline"
-                  href="https://opensea.io/collection/sunflower-land-collectibles"
+                  href="https://opensea.io/"
                   target="_blank"
                   _mstmutation="1"
                   >Open Sea</a
@@ -302,7 +302,7 @@ import Block2 from './block-2.vue'
                   token on Polygon. </font
                 ><a
                   class="text-green-500 underline mt-1 block"
-                  href="https://opensea.io/collection/sunflower-land-collectibles"
+                  href="https://opensea.io/"
                   target="_blank"
                   >View on Open Sea</a
                 >
@@ -551,7 +551,7 @@ import Block2 from './block-2.vue'
             <div class="mt-5 sm:mt-8 flex justify-center z-50 relative">
               <div class="rounded-md shadow mr-2">
                 <a
-                  href="https://opensea.io/collection/sunflower-land-collectibles"
+                  href="https://opensea.io/"
                   class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
                 >
                   Open Sea
@@ -970,7 +970,7 @@ import Block2 from './block-2.vue'
             Built by over 40+ open source developers and 50+ designers across
             the globe.
           </p>
-          <p class="text-xl text-white">
+          <!-- <p class="text-xl text-white">
             <font _mstmutation="1">
               Want to help out? Come join us on
               <a
@@ -980,7 +980,7 @@ import Block2 from './block-2.vue'
                 >Github</a
               >
             </font>
-          </p>
+          </p> -->
         </div>
         <div class="lg:col-span-2">
           <ul
@@ -991,7 +991,7 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
-                  src=""
+                  src="./assets/avatars/ALEX.png"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1045,8 +1045,8 @@ import Block2 from './block-2.vue'
             <li>
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
-                  class="w-16 h-16 rounded-full lg:w-20 lg:h-20"
-                  src="data:image/jpeg;base64,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"
+                  class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
+                  src="./assets/avatars/James.png"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1098,7 +1098,8 @@ import Block2 from './block-2.vue'
             <li>
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
-                  class="w-16 h-16 rounded-full lg:w-20 lg:h-20"
+                  class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
+                  src="./assets/avatars/Juan-Ibagon.png"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1151,6 +1152,7 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
+                  src="./assets/avatars/Ken.png"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1205,6 +1207,7 @@ import Block2 from './block-2.vue'
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img
                   class="w-16 h-16 rounded-full lg:w-20 lg:h-20 object-cover"
+                  src="./assets/avatars/Lea.png"
                   alt=""
                 />
                 <div class="font-medium text-lg leading-6 space-y-1">
@@ -1266,12 +1269,12 @@ import Block2 from './block-2.vue'
               <font _mstmutation="1">
                 You will need to set up your MetaMask with the Polygon
                 blockchain. You can find more details
-                <a
+                <!-- <a
                   href="https://docs.sunflower-land.com/guides/getting-setup"
                   class="underline"
                   _mstmutation="1"
                   >here</a
-                >
+                > -->
               </font>
             </dd>
           </div>
@@ -1300,12 +1303,12 @@ import Block2 from './block-2.vue'
               <font _mstmutation="1">
                 Each land NFT has a unique address on the blockchain you can
                 send resources to. Find out more
-                <a
+                <!-- <a
                   href="https://docs.sunflower-land.com/guides/sending-sfl"
                   class="underline"
                   _mstmutation="1"
                   >here</a
-                >
+                > -->
               </font>
             </dd>
           </div>
