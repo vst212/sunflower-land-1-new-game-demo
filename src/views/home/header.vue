@@ -26,7 +26,7 @@
               _mstaria-label="4985136"
             >
               
-              <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+              <!-- <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a
                   href="https://discord.gg/sunflowerland"
                   class="font-medium text-white hover:text-white"
@@ -53,7 +53,7 @@
                   class="font-medium text-white hover:text-white"
                   >SWAP</a
                 >
-              </div>
+              </div> -->
 
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <a

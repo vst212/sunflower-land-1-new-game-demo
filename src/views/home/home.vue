@@ -583,12 +583,12 @@ import Block2 from './block-2.vue'
           up by the community.
         </p>
 
-        <a
+        <!-- <a
           class="text-green-500 underline text-xl mt-1"
           href="https://docs.sunflower-land.com/fundamentals/roadmap"
           target="_blank"
           >View our roadmap</a
-        >
+        > -->
       </div>
       <div
         class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"
@@ -999,7 +999,7 @@ import Block2 from './block-2.vue'
                   <p class="text-green-primary">
                     Founder, Designer &amp; Developer
                   </p>
-                  <ul role="list" class="flex space-x-5">
+                  <!-- <ul role="list" class="flex space-x-5">
                     <li>
                       <a
                         href="https://twitter.com/bumpkinbuilder"
@@ -1038,7 +1038,7 @@ import Block2 from './block-2.vue'
                         </svg>
                       </a>
                     </li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
             </li>
@@ -1052,7 +1052,7 @@ import Block2 from './block-2.vue'
                 <div class="font-medium text-lg leading-6 space-y-1">
                   <h3 class="text-orange-primary">Spencer Dezart-Smith</h3>
                   <p class="text-green-primary">Engineer (UX/Mobile Specialist)</p>
-                  <ul role="list" class="flex space-x-5">
+                  <!-- <ul role="list" class="flex space-x-5">
                     <li>
                       <a
                         href="https://twitter.com/thisboyspencer"
@@ -1091,7 +1091,7 @@ import Block2 from './block-2.vue'
                         </svg>
                       </a>
                     </li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
             </li>
@@ -1105,7 +1105,7 @@ import Block2 from './block-2.vue'
                 <div class="font-medium text-lg leading-6 space-y-1">
                   <h3 class="text-orange-primary">Romy Furtado</h3>
                   <p class="text-green-primary">Engineer &amp; Musician</p>
-                  <ul role="list" class="flex space-x-5">
+                  <!-- <ul role="list" class="flex space-x-5">
                     <li>
                       <a
                         href="https://twitter.com/rofrtd"
@@ -1144,7 +1144,7 @@ import Block2 from './block-2.vue'
                         </svg>
                       </a>
                     </li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
             </li>
@@ -1160,7 +1160,7 @@ import Block2 from './block-2.vue'
                   <p class="text-green-primary">
                     Partner, PR &amp; Community Management
                   </p>
-                  <ul role="list" class="flex space-x-5">
+                  <!-- <ul role="list" class="flex space-x-5">
                     <li>
                       <a
                         href="https://twitter.com/STEVEW00DY"
@@ -1199,7 +1199,7 @@ import Block2 from './block-2.vue'
                         </svg>
                       </a>
                     </li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
             </li>
@@ -1215,7 +1215,7 @@ import Block2 from './block-2.vue'
                   <p class="text-green-primary">
                     Advisor, Community Relations &amp; Support
                   </p>
-                  <ul role="list" class="flex space-x-5">
+                  <!-- <ul role="list" class="flex space-x-5">
                     <li>
                       <a
                         href="https://twitter.com/SFL_Roulette"
@@ -1234,7 +1234,7 @@ import Block2 from './block-2.vue'
                         </svg>
                       </a>
                     </li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
             </li>
@@ -1330,7 +1330,7 @@ import Block2 from './block-2.vue'
           >Read our litepaper &amp; tokenomics</span
         >
       </h2>
-      <div class="mt-8 flex">
+      <!-- <div class="mt-8 flex">
         <div class="inline-flex">
           <a
             href="https://docs.sunflower-land.com/fundamentals/tokenomics"
@@ -1339,7 +1339,7 @@ import Block2 from './block-2.vue'
             Read more
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
